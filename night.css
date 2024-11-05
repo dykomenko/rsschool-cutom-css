@@ -1,3 +1,14 @@
-body .ant-layout {
-    background: #333;
+:root {
+    --main-bg: #333;
+    --sec-bg: #444;
+    --main-font: #fafafa;
+    --sec-font: #fafafa;
+  }
+
+
+
+
+
+body div.ant-layout {
+    background: var(--main-bg)!important;
 }
